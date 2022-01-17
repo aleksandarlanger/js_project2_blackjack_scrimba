@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-image: url("../images/table.jpg");
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ebe645;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.card-symbol {
+  color: #f05454;
+}
+
+/* ------------Buttons ------- */
+button {
+  background: #ebe645;
+  border: 1px solid #ebe645;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #016f32;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 200px;
+  margin: 0 auto;
+}
+
+button:hover,
+button:active {
+  background-color: #f3e300;
+  background-position: 0 0;
+  color: #016f32;
+}
+button:active {
+  opacity: 0.5;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 25px;
+}

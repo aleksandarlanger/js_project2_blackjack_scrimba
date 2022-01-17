@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>JS Blackjack game</title>
+  </head>
+  <body>
+    <main>
+      <h1>BLACKJACK <span class="card-symbol">♥♠</span></h1>
+
+      <p id="message-el">Want to play a round?</p>
+      <p id="cards-el">Cards:</p>
+      <p id="sum-el">Total points</p>
+
+      <ul>
+        <li><button onclick="startGame()">DRAW 2 CARDS</button></li>
+        <li><button onclick="newCard()">DRAW A NEW CARD</button></li>
+        <li><button onclick="newGame()">NEW GAME</button></li>
+      </ul>
+
+      <p id="player-el"></p>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
